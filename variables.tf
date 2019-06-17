@@ -37,3 +37,7 @@ variable "source_region" {
 variable "destination_region" {
   default = ""
 }
+
+variable "aws_profile" {
+  default = ""
+}
