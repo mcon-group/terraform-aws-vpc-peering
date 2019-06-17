@@ -29,3 +29,11 @@ variable "auto_accept" {
 
   default = true
 }
+
+variable "source_region" {
+  default = ""
+}
+
+variable "destination_region" {
+  default = ""
+}
