@@ -6,6 +6,6 @@ provider "aws" {
 
 provider "aws" {
   alias   = "dst"
-  region  = var.source_region
+  region  = var.destination_region
   profile = var.aws_profile
 }
